@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ServerBasic">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ServerBasic-Ejb.jar" deploy-path="/" handle="module:/resource/ServerBasic-Ejb/ServerBasic-Ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ServerBasic-EjbClient.jar" deploy-path="/" handle="module:/resource/ServerBasic-EjbClient/ServerBasic-EjbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ServerBasic-Jpa.jar" deploy-path="/lib" handle="module:/resource/ServerBasic-Jpa/ServerBasic-Jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
